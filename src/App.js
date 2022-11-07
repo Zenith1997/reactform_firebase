@@ -1,13 +1,13 @@
 import "./styles.css";
 import { db } from "../src/firebase";
 import { addDoc, collection } from "firebase/firestore";
-import { getFirestore } from "firebase/firestore";
+
 import React, { useState } from "react";
 function App() {
   console.log(db);
   const userCollectionRef = collection(db, "store");
 
-  const [loader, setLoader] = useState(false);
+ 
   const [values, setValues] = useState({
     name: "",
     email: "",
@@ -27,13 +27,9 @@ function App() {
     });
   };
 
-  const [gender, setGender] = useState("Male");
 
-  function onChangeValue(event) {
-    setGender(event.target.value);
-    console.log(event.target.value);
 
-  }
+  
 
   const handleChange = (e) => {
     console.log(e.target.checked);
@@ -184,14 +180,9 @@ function App() {
         <div></div>
         <button
           type="submit"
-          style={{ background:" rgb(29, 122, 110)" },{borderRadius:"10px"}}
         >
           Submit
         </button>
-
-
-  
-        
       </form>
     </div>
   );
