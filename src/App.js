@@ -69,7 +69,7 @@ function App() {
         />
         <label>Gender</label>
         <select onChange={handleChange} name="gender" id="selectList">
-          <option value="male">Male</option> {" "}
+          <option value="male">Male</option>
           <option value="female">Female</option>
         </select>
         <label>Experience in computer</label>
@@ -78,7 +78,7 @@ function App() {
           <div className="containerone"     >
             <div>
               <label>
-                {" "}
+           
                 <input
                   type="radio"
               
@@ -92,7 +92,7 @@ function App() {
             </div>
             <div>
               <label>
-                {" "}
+              
                 <input
                   type="radio"
             
@@ -105,7 +105,7 @@ function App() {
             </div>
             <div>
               <label>
-                {" "}
+
                 <input
                   type="radio"
              
@@ -121,7 +121,7 @@ function App() {
           <div>
             <div>
               <label>
-                {" "}
+
                 <input
                   type="radio"
     
@@ -135,7 +135,7 @@ function App() {
             </div>
             <div>
               <label>
-                {" "}
+
                 <input
                   type="radio"
               
@@ -149,7 +149,7 @@ function App() {
             </div>
             <div>
               <label>
-                {" "}
+
                 <input
                   type="radio"
 
@@ -163,7 +163,7 @@ function App() {
             </div>
             <div>
               <label>
-                {" "}
+
                 <input
                   type="radio"
      
