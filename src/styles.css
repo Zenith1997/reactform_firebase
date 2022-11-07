@@ -1,0 +1,49 @@
+.App {
+    font-family: sans-serif;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap");
+  
+  .container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    margin: auto;
+    
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  label {
+    font-family: "Nunito", sans-serif;
+    margin:10px 0px 10px 0px;
+  }
+  select {
+    margin:10px 0px 30px 0px;
+    border-radius: 5px;
+    height: 25px;
+    font-family: "Nunito", sans-serif;
+  }
+  h1 {
+    font-family: "Nunito", sans-serif;
+  }
+  .radiobutton {
+    display: "inline";
+    color: "red";
+  }
+  
+  .radiocontainer{
+    display: flex;
+    
+  }
+  .containerone{
+    margin-right:40px;
+  }
